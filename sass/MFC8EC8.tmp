@@ -1,0 +1,131 @@
+@import "compass/css3";
+@import "common/mixins";
+@import "custom/mixins_spv2";
+@import "custom/vars";
+@import "custom/icons";
+@import "common/media_queries";
+@import "custom/typography";
+@import "common/toolbox";
+@import "common/grid";
+@import "common/normalize";
+@import "common/fluid";
+@import "../player/mediaelementplayer.min.css";
+
+body {
+	background: url(../images/hexabump.png);
+	overflow-x: hidden; /*horiz scroll remove*/
+	
+}
+.page-wrap {
+	background: url(../images/bg.jpg);
+	width: $width;
+	margin: 0 auto $padding auto;
+	position: relative;
+	border-radius: 2px;
+	@include transition(width 0.3s ease);
+	@include breakpoint (768) {
+		width: $widthMid;
+	}
+}
+footer {
+	clear:both;
+}
+
+
+.podcast {
+	&:before { 
+		@include module-header-before($orange);
+	}
+	&:after {
+		content: "Seasiders Podcast";
+		@include module-header-after;
+	}
+}
+
+.tactics {
+	&:before { 
+		@include module-header-before($post);
+	}
+	&:after {
+		content: "Tactical Insights";
+		@include module-header-after;
+	}
+}
+
+.coverage {
+	&:before { 
+		@include module-header-before($post);
+	}
+	&:after {
+		content: "Match Coverage";
+		@include module-header-after;
+	}
+}
+
+.opinion {
+	&:before { 
+		@include module-header-before($post);
+	}
+	&:after {
+		content: "Opinion";
+		@include module-header-after;
+	}
+}
+
+.stats {
+	&:before { 
+		@include module-header-before($post);
+	}
+	&:after {
+		content: "Statistical Analysis";
+		@include module-header-after;
+	}
+}
+.partner {
+	background: #000;
+	&:before { 
+		@include module-header-before($partner);
+	}
+	&:after {
+		content: "Partner";
+		@include module-header-after;
+	}
+}
+.white-bg {
+	background: #FFF;
+}
+.archives {
+	&:before { 
+		@include module-header-before($archives);
+	}
+	&:after {
+		content: "Archives";
+		@include module-header-after;
+	}
+}
+.listen-follow {
+	&:before { 
+		@include module-header-before($active);
+	}
+	&:after {
+		color: #F00!important;
+		content: "Subscribe to the podcast";
+		@include module-header-after;
+	}
+}
+
+@import "sections/header";
+@import "sections/nav";
+@import "sections/home";
+@import "sections/blog";
+@import "sections/cta";
+@import "sections/sidebar";
+@import "sections/footer";
+
+
+
+	
+
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>HTML5 MediaElement</title>	
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>	
+	<script src="player/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="player/mediaelementplayer.min.css" />
+</head>
+<body>
+
+<h1>MediaElementPlayer.js</h1>
+
+<p>Audio player</p>
+
+<h2>MP3</h2>
+<audio id="player2" src="test.mp3" type="audio/mp3" controls>		
+</audio>	
+
+<script>
+$('audio,video').mediaelementplayer();
+</script>
+
+</body>
+</html>
+
