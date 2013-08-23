@@ -10,6 +10,7 @@ header.top-banner {
 	#logo {
 		float: left;
 		width: 60%;
+		color: #fff;
 		@include breakpoint (1024) {
 			width: 45%;
 		}
@@ -38,12 +39,12 @@ header.top-banner {
 		margin-top:12px;
 		margin-bottom:12px;
 	}
-	h1 {
+	p {
 		color: #fff;
 		@include font-stack-headers;
 		text-transform: uppercase;
 		text-shadow: 1px 1px 1px #000;
-		margin: 8px 0;
+		margin: 12px 0;
 		padding-left: $gutter;
 		font-weight: normal;
 		display: inline-block;
