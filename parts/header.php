@@ -1,6 +1,6 @@
 <header class="top-banner group">   
 <div id="logo" class="grid-half">
-	<p>Seasiders P<span class="retro" data-icon="<"></span>dcast <span class="strapline">An independent Blackpool FC fans podcast</span></p>
+	<h1>Seasiders P<span class="retro" data-icon="<"></span>dcast <span class="strapline">An independent Blackpool FC fans podcast</span></h1>
 </div> 
 
 <!--<div id="box-ad">

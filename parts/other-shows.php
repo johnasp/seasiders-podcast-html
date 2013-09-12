@@ -1,15 +1,15 @@
 <article class="module tactics blog-post">
-	<span class="head-icon" aria-hidden="true" data-icon="$"></span>
-	<h2><a href="blogpost2.php">Tom Ince - The Low-Down</a></h2>
-	<p>Tom Ince (20) signed for Blackpool from Liverpool in the summer of 2011 and in just over a year he has grown with each game he has played and is now one of Blackpool’s key attacking weapons. In his first season he scored 8 goals and made 8 assists in 41 appearances. This season he already has 13 goals, 9 assists in 20 league appearances.</p>
-	<a class="more" href="../blogpost2.php" data-icon="9"> More</a>
+<span class="head-icon" aria-hidden="true" data-icon="$"></span>
+<h2>Tom Ince - The Low-Down</h2>
+<p>Tom Ince (20) signed for Blackpool from Liverpool in the summer of 2011 and in just over a year he has grown with each game he has played and is now one of Blackpool’s key attacking weapons. In his first season he scored 8 goals and made 8 assists in 41 appearances. This season he already has 13 goals, 9 assists in 20 league appearances.</p>
+<a class="more" href="../blogpost2.php" data-icon="9"> More</a>
 </article> 
 
 <article class="module opinion">
-	<span class="head-icon" aria-hidden="true" data-icon="$"></span>
-	<h2>Blackpool FC's 11/12 Accounts Reviewed</h2>
-	<p>Eagerly-awaited they may have been, but the annual release of accounts for Blackpool Football Club Ltd and Segesta Ltd (the properties side of the club) proved to be a much more low-key affair this time around. Absent from the contents was any mention of huge director remuneration like last year, but if one scratches beneath the surface, there remains a story to be told.</p>
-	<a class="more" href="../blogpost2.php" data-icon="9"> More</a>
+<span class="head-icon" aria-hidden="true" data-icon="$"></span>
+<h2>Blackpool FC's 11/12 Accounts Reviewed</h2>
+<p>Eagerly-awaited they may have been, but the annual release of accounts for Blackpool Football Club Ltd and Segesta Ltd (the properties side of the club) proved to be a much more low-key affair this time around. Absent from the contents was any mention of huge director remuneration like last year, but if one scratches beneath the surface, there remains a story to be told.</p>
+<a class="more" href="../blogpost2.php" data-icon="9"> More</a>
 </article> 
 
 <div id="homepage-small-ad" class="module partner home-ad-block">

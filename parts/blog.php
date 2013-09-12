@@ -14,7 +14,7 @@
 
 <article class="module tactics blog-post">
 <span class="head-icon" aria-hidden="true" data-icon="$"></span>
-<h2><a href="#">Tom Ince - The Low-Down TEST</a></h2>
+<h2>Tom Ince - The Low-Down</h2>
 <p>Tom Ince (20) signed for Blackpool from Liverpool in the summer of 2011 and in just over a year he has grown with each game he has played and is now one of Blackpool’s key attacking weapons. In his first season he scored 8 goals and made 8 assists in 41 appearances. This season he already has 13 goals, 9 assists in 20 league appearances.</p>
 <a class="more" href="../blogpost2.php" data-icon="9"> More</a>
 </article> 

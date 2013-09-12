@@ -1,0 +1,9 @@
+AddType application/vnd.ms-fontobject  eot
+AddType application/x-font-ttf         ttf ttc
+AddType application/x-font-woff        woff
+AddType font/opentype                  otf
+
+AddType audio/mpeg mp3
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
