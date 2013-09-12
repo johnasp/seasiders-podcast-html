@@ -64,3 +64,7 @@
 2013-08-23 16:50:01 overwrite css/global.css 
 2013-08-23 16:52:08 overwrite css/global.css 
 2013-08-23 16:58:19 overwrite css/global.css 
+2013-08-27 17:06:08     error sass/global.scss (Line 22 of sass/sections/_home.scss: Invalid CSS after "...$midGrey,20%); ": expected "}", was "]")
+2013-08-27 17:06:08 overwrite css/global.css 
+2013-08-28 11:26:07 overwrite css/global.css 
+2013-08-28 11:29:02 identical css/global.css 
