@@ -11,6 +11,11 @@
 <div class="grid group"> 
 
 
+<aside id="cta" class="grid-1-4 group">
+<?php include("parts/cta.php") ?>
+</aside>
+
+
 <section id="home" class="grid-1-2" role="main">
  
 <div id="listen" class="module fao">
@@ -40,9 +45,6 @@
 </section>
 
 
-<aside id="cta" class="grid-1-4 group">
-<?php include("parts/cta.php") ?>
-</aside>
 
 
 <aside id="sidebar" class="grid-1-4 group">
