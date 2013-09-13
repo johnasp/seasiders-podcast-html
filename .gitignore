@@ -9,6 +9,9 @@ tmp/
 *.pdf
 *.settings
 *.mno
+*.txt
+sass/
+.sass-cache/
 
 #############
 ## Windows detritus
