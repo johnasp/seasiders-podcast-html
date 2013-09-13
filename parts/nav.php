@@ -7,5 +7,5 @@
   <a href="/blackpoolfc.php" class="contact"><span aria-hidden="true" data-icon="<"></span>Blackpool FC </a>
 
   <a href="/donate.php" class="donate"><span aria-hidden="true" data-icon="I"></span>Donate </a>
-  <a href="/about.php" class="about"><span aria-hidden="true" data-icon="{"></span>About </a>
+  <a href="/about.php" class="about"><span aria-hidden="true" data-icon="="></span>About </a>
 </nav>

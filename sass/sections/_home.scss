@@ -115,29 +115,35 @@ article {
 	background: rgba($link, 0.7)!important;
 }
 }
-#listen {
-	@include breakpoint(768) {
-		display: none;
+#subscribe-home {
+	@include breakpoint(768) {display: none;}
+	p { 
+		background: black;
+		color: white;
+		position: relative;
+		margin: 0 0 $gutter 0;
+		text-transform: uppercase;
+		padding: 4px 0;
+		@include font-size(1.4) ;
 	}
-	p {margin-top:6px;}
-	.android {margin-bottom: 6px;}
+	a {margin-bottom: 12px;}
 	text-align: center;
 	span:first-child { margin-bottom: 6px;}
 	a {
 		display: inline-block;
 		color: #FFF;
 		padding: $padding/2;
-		width: 48%;
-		@include font-size(1.4);
-		@include breakpoint(480) {@include font-size(1.6);}
+		width: 46%;
+		@include font-size(1.6);
+		@include breakpoint(480) {@include font-size(1.8);}
 		text-decoration: none;
-		margin-right: 2px;
+		margin-right: 2%;
 		text-transform: uppercase;
 		&:hover, &:focus {background: $hover;}
 		span {
 			font-weight: normal;
 			margin: 3px 4px 0 0;
-	    @include font-size(1.6);
+	   		 @include font-size(2.0);
 			@include breakpoint(480) {@include font-size(2.6);}
 		}
 	}
@@ -225,15 +231,6 @@ article {
 	}
 	&:after {
 		content: "Archives";
-		@include module-header-after;
-	}
-}
-.fao {
-	&:before { 
-		@include module-header-before($active);
-	}
-	&:after {
-		content: "How to subscribe on a mobile device";
 		@include module-header-after;
 	}
 }

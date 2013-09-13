@@ -1,15 +1,15 @@
 
 <div id="sideMobile" class="grid-1-2">
-<!--  <p class="group">Listen<span aria-hidden="true" data-icon="("></span></p>
--->  <a href="#" class="apple"><span aria-hidden="true" data-icon="0"></span>Apple</a>
+  <p class="group">Listen<span aria-hidden="true" data-icon="("></span></p>
+  <a href="#" class="apple"><span aria-hidden="true" data-icon="0"></span>Apple</a>
   <a href="#" class="android"><span aria-hidden="true" data-icon="/"></span>Android</a>
   <a href="#" class="blackberry"><span aria-hidden="true" data-icon=":"></span>Blackberry</a>
   <a href="#" class="windows8"><span aria-hidden="true" data-icon="j"></span>Windows</a>
 </div>
 
 <div id="sideSocial" class="grid-1-2">
-<!--  <p class="group">Follow<span aria-hidden="true" data-icon="("></span></p>
--->  <a href="https://www.facebook.com/SeasidersPodcast" class="facebook"><span aria-hidden="true" data-icon="1"></span>Facebook</a>
+  <p class="group">Follow<span aria-hidden="true" data-icon="("></span></p>
+  <a href="https://www.facebook.com/SeasidersPodcast" class="facebook"><span aria-hidden="true" data-icon="1"></span>Facebook</a>
   <a href="https://twitter.com/SeasidersPod" class="twitter"><span aria-hidden="true" data-icon="4"></span>Twitter</a>
   <a href="https://plus.google.com/113085745119575612415/" class="google"><span aria-hidden="true" data-icon="?"></span>Google+</a>
   <a href="http://feeds.feedburner.com/seasiderspodcast" class="rss"><span aria-hidden="true" data-icon="A"></span>RSS</a>

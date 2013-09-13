@@ -278,7 +278,7 @@ sub {
 }
 
 /* line 31, ../sass/common/_toolbox.scss */
-.screen-reader {
+.screen-reader-text {
   /* Reusable, toolbox kind of class */
   position: absolute;
   top: -9999px;
@@ -418,7 +418,7 @@ sub {
 
 /* line 11, ../sass/common/_normalize.scss */
 html {
-  font-size: 60%;
+  font-size: 50%;
   height: 100%;
   /* Allow DIVs to set with relative height */
 }
@@ -732,7 +732,7 @@ header.top-banner #logo {
 /* line 17, ../sass/sections/_header.scss */
 header.top-banner #box-ad {
   float: right;
-  padding-right: 1%;
+  padding-right: 2%;
 }
 @media (min-width: 1024px) {
   /* line 17, ../sass/sections/_header.scss */
@@ -772,7 +772,7 @@ header.top-banner h1 {
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #000;
   margin: 8px 0;
-  padding-left: 1%;
+  padding-left: 2%;
   font-weight: normal;
   display: inline-block;
   font-size: 38px;
@@ -1164,82 +1164,89 @@ article span.head-icon {
 }
 
 /* line 118, ../sass/sections/_home.scss */
-#listen {
+#subscribe-home {
   text-align: center;
 }
 @media (min-width: 768px) {
   /* line 118, ../sass/sections/_home.scss */
-  #listen {
+  #subscribe-home {
     display: none;
   }
 }
-/* line 122, ../sass/sections/_home.scss */
-#listen p {
-  margin-top: 6px;
+/* line 120, ../sass/sections/_home.scss */
+#subscribe-home p {
+  background: black;
+  color: white;
+  position: relative;
+  margin: 0 0 2% 0;
+  text-transform: uppercase;
+  padding: 4px 0;
+  font-size: 14px;
+  font-size: 1.4rem;
 }
-/* line 123, ../sass/sections/_home.scss */
-#listen .android {
+/* line 129, ../sass/sections/_home.scss */
+#subscribe-home a {
+  margin-bottom: 12px;
+}
+/* line 131, ../sass/sections/_home.scss */
+#subscribe-home span:first-child {
   margin-bottom: 6px;
 }
-/* line 125, ../sass/sections/_home.scss */
-#listen span:first-child {
-  margin-bottom: 6px;
-}
-/* line 126, ../sass/sections/_home.scss */
-#listen a {
+/* line 132, ../sass/sections/_home.scss */
+#subscribe-home a {
   display: inline-block;
   color: #FFF;
   padding: 10px;
-  width: 48%;
-  font-size: 14px;
-  font-size: 1.4rem;
+  width: 46%;
+  font-size: 16px;
+  font-size: 1.6rem;
   text-decoration: none;
-  margin-right: 2px;
+  margin-right: 2%;
   text-transform: uppercase;
 }
 @media (min-width: 480px) {
-  /* line 126, ../sass/sections/_home.scss */
-  #listen a {
-    font-size: 16px;
-    font-size: 1.6rem;
+  /* line 132, ../sass/sections/_home.scss */
+  #subscribe-home a {
+    font-size: 18px;
+    font-size: 1.8rem;
   }
 }
-/* line 136, ../sass/sections/_home.scss */
-#listen a:hover, #listen a:focus {
+/* line 142, ../sass/sections/_home.scss */
+#subscribe-home a:hover, #subscribe-home a:focus {
   background: #00aaff;
 }
-/* line 137, ../sass/sections/_home.scss */
-#listen a span {
+/* line 143, ../sass/sections/_home.scss */
+#subscribe-home a span {
   font-weight: normal;
   margin: 3px 4px 0 0;
-  font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 20px;
+  font-size: 2rem;
 }
 @media (min-width: 480px) {
-  /* line 137, ../sass/sections/_home.scss */
-  #listen a span {
+  /* line 143, ../sass/sections/_home.scss */
+  #subscribe-home a span {
     font-size: 26px;
     font-size: 2.6rem;
   }
 }
-/* line 144, ../sass/sections/_home.scss */
-#listen .apple {
+/* line 150, ../sass/sections/_home.scss */
+#subscribe-home .apple {
   background: black;
 }
-/* line 147, ../sass/sections/_home.scss */
-#listen .android {
+/* line 153, ../sass/sections/_home.scss */
+#subscribe-home .android {
   background: #97cc00;
 }
-/* line 150, ../sass/sections/_home.scss */
-#listen .blackberry {
+/* line 156, ../sass/sections/_home.scss */
+#subscribe-home .blackberry {
   background: #023249;
 }
-/* line 153, ../sass/sections/_home.scss */
-#listen .windows8 {
+/* line 159, ../sass/sections/_home.scss */
+#subscribe-home .windows8 {
   background: #0076b2;
 }
 
-/* line 161, ../sass/sections/_home.scss */
+/* line 167, ../sass/sections/_home.scss */
 .podcast:before {
   content: " ";
   background: #ff8000;
@@ -1250,7 +1257,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 164, ../sass/sections/_home.scss */
+/* line 170, ../sass/sections/_home.scss */
 .podcast:after {
   content: "Seasiders Podcast";
   position: absolute;
@@ -1262,7 +1269,7 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 171, ../sass/sections/_home.scss */
+/* line 177, ../sass/sections/_home.scss */
 .tactics:before {
   content: " ";
   background: #f43e00;
@@ -1273,7 +1280,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 174, ../sass/sections/_home.scss */
+/* line 180, ../sass/sections/_home.scss */
 .tactics:after {
   content: "Tactical Insights";
   position: absolute;
@@ -1285,7 +1292,7 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 181, ../sass/sections/_home.scss */
+/* line 187, ../sass/sections/_home.scss */
 .coverage:before {
   content: " ";
   background: #f43e00;
@@ -1296,7 +1303,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 184, ../sass/sections/_home.scss */
+/* line 190, ../sass/sections/_home.scss */
 .coverage:after {
   content: "Match Coverage";
   position: absolute;
@@ -1308,7 +1315,7 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 191, ../sass/sections/_home.scss */
+/* line 197, ../sass/sections/_home.scss */
 .opinion:before {
   content: " ";
   background: #f43e00;
@@ -1319,7 +1326,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 194, ../sass/sections/_home.scss */
+/* line 200, ../sass/sections/_home.scss */
 .opinion:after {
   content: "Opinion";
   position: absolute;
@@ -1331,7 +1338,7 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 201, ../sass/sections/_home.scss */
+/* line 207, ../sass/sections/_home.scss */
 .stats:before {
   content: " ";
   background: #f43e00;
@@ -1342,7 +1349,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 204, ../sass/sections/_home.scss */
+/* line 210, ../sass/sections/_home.scss */
 .stats:after {
   content: "Statistical Analysis";
   position: absolute;
@@ -1354,11 +1361,11 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 209, ../sass/sections/_home.scss */
+/* line 215, ../sass/sections/_home.scss */
 .partner {
   background: #000;
 }
-/* line 211, ../sass/sections/_home.scss */
+/* line 217, ../sass/sections/_home.scss */
 .partner:before {
   content: " ";
   background: #333333;
@@ -1369,7 +1376,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 214, ../sass/sections/_home.scss */
+/* line 220, ../sass/sections/_home.scss */
 .partner:after {
   content: "Partner";
   position: absolute;
@@ -1381,12 +1388,12 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 219, ../sass/sections/_home.scss */
+/* line 225, ../sass/sections/_home.scss */
 .white-bg {
   background: #FFF;
 }
 
-/* line 223, ../sass/sections/_home.scss */
+/* line 229, ../sass/sections/_home.scss */
 .archives:before {
   content: " ";
   background: #ffaa00;
@@ -1397,7 +1404,7 @@ article span.head-icon {
   top: 0;
   left: 0;
 }
-/* line 226, ../sass/sections/_home.scss */
+/* line 232, ../sass/sections/_home.scss */
 .archives:after {
   content: "Archives";
   position: absolute;
@@ -1409,36 +1416,13 @@ article span.head-icon {
   color: #fff;
 }
 
-/* line 232, ../sass/sections/_home.scss */
-.fao:before {
-  content: " ";
-  background: #006699;
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 17px;
-  top: 0;
-  left: 0;
-}
-/* line 235, ../sass/sections/_home.scss */
-.fao:after {
-  content: "How to subscribe on a mobile device";
-  position: absolute;
-  top: 4px;
-  left: 20px;
-  text-transform: uppercase;
-  line-height: 0.7em;
-  font-size: 11px;
-  color: #fff;
-}
-
-/* line 240, ../sass/sections/_home.scss */
+/* line 237, ../sass/sections/_home.scss */
 .sub-nav {
   background: none;
   padding: 10px 0;
   font-size: 0;
 }
-/* line 244, ../sass/sections/_home.scss */
+/* line 241, ../sass/sections/_home.scss */
 .sub-nav a {
   background: #e1e1e1;
   color: #222222;
@@ -1449,25 +1433,25 @@ article span.head-icon {
   text-transform: uppercase;
   margin: 0 2px 2px 0;
 }
-/* line 252, ../sass/sections/_home.scss */
+/* line 249, ../sass/sections/_home.scss */
 .sub-nav a:first-child {
   margin-bottom: 2px;
 }
-/* line 255, ../sass/sections/_home.scss */
+/* line 252, ../sass/sections/_home.scss */
 .sub-nav a:last-child {
   margin-right: 0;
 }
-/* line 258, ../sass/sections/_home.scss */
+/* line 255, ../sass/sections/_home.scss */
 .sub-nav a:hover, .sub-nav a:focus {
   background: #00aaff;
 }
 
-/* line 263, ../sass/sections/_home.scss */
+/* line 260, ../sass/sections/_home.scss */
 .pagination {
   text-align: right;
 }
 
-/* line 266, ../sass/sections/_home.scss */
+/* line 263, ../sass/sections/_home.scss */
 button#hide {
   color: #FFF;
   font-size: 12px;
@@ -1479,7 +1463,7 @@ button#hide {
   border: none;
   text-transform: uppercase;
 }
-/* line 275, ../sass/sections/_home.scss */
+/* line 272, ../sass/sections/_home.scss */
 button#hide span {
   font-size: 22px;
   font-size: 2.2rem;
@@ -1605,7 +1589,7 @@ article.blog header p {
 /* line 100, ../sass/sections/_blog.scss */
 .blog header {
   position: relative;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 /* line 104, ../sass/sections/_blog.scss */
 .blog h1, .blog a.latest {
@@ -1660,7 +1644,7 @@ article.blog header p {
 }
 /* line 140, ../sass/sections/_blog.scss */
 .blog .meta {
-  margin-top: 3%;
+  margin-top: 6%;
   font-weight: bold;
   color: #737373;
   padding: 4px 0 4px 8px;
@@ -1706,75 +1690,106 @@ article.blog header p {
 /* line 167, ../sass/sections/_blog.scss */
 .filter-nav {
   padding-top: 0;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
-/* line 171, ../sass/sections/_blog.scss */
+/* line 170, ../sass/sections/_blog.scss */
 .filter-nav a {
   display: block;
   text-align: center;
 }
-/* line 174, ../sass/sections/_blog.scss */
+/* line 173, ../sass/sections/_blog.scss */
 .filter-nav a.show-hide-nav {
   background: gray;
   color: #FFF;
   font-size: 24px;
   font-size: 2.4rem;
   padding: 0;
-  margin-bottom: 1px;
 }
-/* line 182, ../sass/sections/_blog.scss */
+/* line 180, ../sass/sections/_blog.scss */
 .filter-nav a:not(.show-hide-nav) {
   /*Hide all filter buttons except control button*/
-  height: 0;
-  padding: 0;
-  margin-bottom: 0;
-  -webkit-transform: rotateX(270deg);
-  -webkit-transition: -webkit-transform 0.2s ease;
-  -moz-transition: -moz-transform 0.2s ease;
-  -o-transition: -o-transform 0.2s ease;
-  transition: transform 0.2s ease;
+  display: none;
 }
-/* line 188, ../sass/sections/_blog.scss */
+/* line 182, ../sass/sections/_blog.scss */
 body.show-filter-nav .filter-nav a:not(.show-hide-nav) {
   /*Show all filter buttons*/
-  display: block;
-  -webkit-transform: rotateX(360deg);
-  height: auto;
-  padding: 8px;
-  margin-bottom: 1px;
+  display: inline-block;
 }
 
-/* line 2, ../sass/sections/_cta.scss */
+/* line 1, ../sass/sections/_cta.scss */
+#cta {
+  display: none;
+}
+@media (min-width: 768px) {
+  /* line 1, ../sass/sections/_cta.scss */
+  #cta {
+    display: block;
+  }
+}
+/* line 3, ../sass/sections/_cta.scss */
 #cta .listen-follow {
   padding-top: 40px;
 }
-/* line 5, ../sass/sections/_cta.scss */
+/* line 6, ../sass/sections/_cta.scss */
 #cta p, #cta li {
   font-size: 14px;
   font-size: 1.4rem;
 }
-/* line 6, ../sass/sections/_cta.scss */
+/* line 7, ../sass/sections/_cta.scss */
 #cta #cta-ad-250 {
   background: #FFF;
 }
 @media (min-width: 480px) {
-  /* line 8, ../sass/sections/_cta.scss */
+  /* line 9, ../sass/sections/_cta.scss */
   #cta #cta-ad-250 iframe {
     margin-left: 30%;
   }
 }
 @media (min-width: 768px) {
-  /* line 8, ../sass/sections/_cta.scss */
+  /* line 9, ../sass/sections/_cta.scss */
   #cta #cta-ad-250 iframe {
     margin-left: 0;
   }
 }
-/* line 17, ../sass/sections/_cta.scss */
-#cta #sideSocial {
+/* line 18, ../sass/sections/_cta.scss */
+#cta #donate {
+  padding-top: 20px;
+  border: 2px solid #E39A46;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, #faefaa), color-stop(100%, #ffbe3a));
+  background-image: -webkit-linear-gradient(#faefaa 40%, #ffbe3a);
+  background-image: -moz-linear-gradient(#faefaa 40%, #ffbe3a);
+  background-image: -o-linear-gradient(#faefaa 40%, #ffbe3a);
+  background-image: linear-gradient(#faefaa 40%, #ffbe3a);
+}
+/* line 22, ../sass/sections/_cta.scss */
+#cta #donate h2 {
+  margin-top: 0;
+}
+/* line 25, ../sass/sections/_cta.scss */
+#cta #donate form {
+  text-align: center;
+}
+/* line 27, ../sass/sections/_cta.scss */
+#cta #donate form select {
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: 'open sans', serif;
+  margin-bottom: 20px;
+}
+/* line 32, ../sass/sections/_cta.scss */
+#cta #donate form .pp-but {
+  display: block;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+/* line 41, ../sass/sections/_cta.scss */
+#sideSocial {
   padding-right: 0 !important;
 }
-/* line 18, ../sass/sections/_cta.scss */
-#cta #sideMobile p, #cta #sideSocial p, #cta #previous {
+
+/* line 42, ../sass/sections/_cta.scss */
+#sideMobile p, #sideSocial p, #previous {
   font-size: 12px;
   font-size: 1.2rem;
   margin-top: 0;
@@ -1786,8 +1801,8 @@ body.show-filter-nav .filter-nav a:not(.show-hide-nav) {
   color: #fff;
   line-height: 1.1em;
 }
-/* line 28, ../sass/sections/_cta.scss */
-#cta #sideMobile p span, #cta #sideSocial p span, #cta #previous span {
+/* line 52, ../sass/sections/_cta.scss */
+#sideMobile p span, #sideSocial p span, #previous span {
   font-size: 28px;
   font-size: 2.8rem;
   position: absolute;
@@ -1795,8 +1810,9 @@ body.show-filter-nav .filter-nav a:not(.show-hide-nav) {
   left: 10%;
   color: #000;
 }
-/* line 36, ../sass/sections/_cta.scss */
-#cta #sideSocial a, #cta #sideMobile a {
+
+/* line 60, ../sass/sections/_cta.scss */
+#sideSocial a, #sideMobile a {
   display: block;
   color: #FFF;
   margin-bottom: 20px;
@@ -1811,12 +1827,12 @@ body.show-filter-nav .filter-nav a:not(.show-hide-nav) {
   height: 60px;
   padding-top: 10px;
 }
-/* line 49, ../sass/sections/_cta.scss */
-#cta #sideSocial a:hover, #cta #sideSocial a:focus, #cta #sideMobile a:hover, #cta #sideMobile a:focus {
+/* line 73, ../sass/sections/_cta.scss */
+#sideSocial a:hover, #sideSocial a:focus, #sideMobile a:hover, #sideMobile a:focus {
   background: #00aaff;
 }
-/* line 52, ../sass/sections/_cta.scss */
-#cta #sideSocial a span, #cta #sideMobile a span {
+/* line 76, ../sass/sections/_cta.scss */
+#sideSocial a span, #sideMobile a span {
   font-weight: normal;
   font-size: 50px;
   font-size: 5rem;
@@ -1831,113 +1847,91 @@ body.show-filter-nav .filter-nav a:not(.show-hide-nav) {
   -o-transition: font-size 0.2s ease;
   transition: font-size 0.2s ease;
 }
-/* line 64, ../sass/sections/_cta.scss */
-#cta .apple {
+
+/* line 88, ../sass/sections/_cta.scss */
+.apple {
   background: gray !important;
   border-left: 10px solid black !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .apple:hover, #cta .apple:focus {
+.apple:hover, .apple:focus {
   background: black !important;
 }
-/* line 67, ../sass/sections/_cta.scss */
-#cta .android {
+
+/* line 91, ../sass/sections/_cta.scss */
+.android {
   background: gray !important;
   border-left: 10px solid #719900 !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .android:hover, #cta .android:focus {
+.android:hover, .android:focus {
   background: #97cc00 !important;
 }
-/* line 70, ../sass/sections/_cta.scss */
-#cta .blackberry {
+
+/* line 94, ../sass/sections/_cta.scss */
+.blackberry {
   background: gray !important;
   border-left: 10px solid #011017 !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .blackberry:hover, #cta .blackberry:focus {
+.blackberry:hover, .blackberry:focus {
   background: #023249 !important;
 }
-/* line 73, ../sass/sections/_cta.scss */
-#cta .windows8 {
+
+/* line 97, ../sass/sections/_cta.scss */
+.windows8 {
   background: gray !important;
   border-left: 10px solid #00547f !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .windows8:hover, #cta .windows8:focus {
+.windows8:hover, .windows8:focus {
   background: #0076b2 !important;
 }
-/* line 76, ../sass/sections/_cta.scss */
-#cta .facebook {
+
+/* line 100, ../sass/sections/_cta.scss */
+.facebook {
   background: gray !important;
   border-left: 10px solid #293e69 !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .facebook:hover, #cta .facebook:focus {
+.facebook:hover, .facebook:focus {
   background: #37548e !important;
 }
-/* line 79, ../sass/sections/_cta.scss */
-#cta .twitter {
+
+/* line 103, ../sass/sections/_cta.scss */
+.twitter {
   background: gray !important;
   border-left: 10px solid #0283bf !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .twitter:hover, #cta .twitter:focus {
+.twitter:hover, .twitter:focus {
   background: #03a6f1 !important;
 }
-/* line 82, ../sass/sections/_cta.scss */
-#cta .google {
+
+/* line 106, ../sass/sections/_cta.scss */
+.google {
   background: gray !important;
   border-left: 10px solid #cc0000 !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .google:hover, #cta .google:focus {
+.google:hover, .google:focus {
   background: red !important;
 }
-/* line 85, ../sass/sections/_cta.scss */
-#cta .rss {
+
+/* line 109, ../sass/sections/_cta.scss */
+.rss {
   background: gray !important;
   border-left: 10px solid #cc6600 !important;
 }
 /* line 59, ../sass/custom/_mixins_spv2.scss */
-#cta .rss:hover, #cta .rss:focus {
+.rss:hover, .rss:focus {
   background: #ff8000 !important;
 }
-/* line 88, ../sass/sections/_cta.scss */
-#cta li a {
+
+/* line 112, ../sass/sections/_cta.scss */
+li a {
   font-size: 14px;
   font-size: 1.4rem;
-}
-/* line 91, ../sass/sections/_cta.scss */
-#cta #donate {
-  padding-top: 20px;
-  border: 2px solid #E39A46;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, #faefaa), color-stop(100%, #ffbe3a));
-  background-image: -webkit-linear-gradient(#faefaa 40%, #ffbe3a);
-  background-image: -moz-linear-gradient(#faefaa 40%, #ffbe3a);
-  background-image: -o-linear-gradient(#faefaa 40%, #ffbe3a);
-  background-image: linear-gradient(#faefaa 40%, #ffbe3a);
-}
-/* line 95, ../sass/sections/_cta.scss */
-#cta #donate h2 {
-  margin-top: 0;
-}
-/* line 98, ../sass/sections/_cta.scss */
-#cta #donate form {
-  text-align: center;
-}
-/* line 100, ../sass/sections/_cta.scss */
-#cta #donate form select {
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: 'open sans', serif;
-  margin-bottom: 20px;
-}
-/* line 105, ../sass/sections/_cta.scss */
-#cta #donate form .pp-but {
-  display: block;
-  margin: 0 auto;
-  margin-top: 6px;
 }
 
 /* line 1, ../sass/sections/_sidebar.scss */
