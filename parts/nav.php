@@ -1,5 +1,5 @@
 <nav id="main-nav" role="navigation">
-  <a href="/index.php" class="home"><span aria-hidden="true" data-icon="!"></span>TEST2</a>
+  <a href="/index.php" class="home"><span aria-hidden="true" data-icon="!"></span>TEST3</a>
   <a href="/podcasts.php" class="podcasts"><span aria-hidden="true" data-icon="G"></span>Podcasts</a>
   <a href="/blogs.php" class="blogs"><span aria-hidden="true" data-icon="$"></span>Blogs </a>
   <a href="/live.php" class="live"><span aria-hidden="true" data-icon="Q"></span>Live </a>
